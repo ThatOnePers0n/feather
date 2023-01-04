@@ -5,5 +5,6 @@
   padding: 0px;
 }
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/main/images/bg.jpg");
+  background-color: #222222;
+  color: #cccccc;
 }
