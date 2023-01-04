@@ -22,7 +22,7 @@ body {
 #glist {
 	overflow-x: hidden;
 	overflow-y: scroll;
-	width: 365px;
+	width: 355px;
 	height: 520px;
 	padding: 0;
 	text-align: center;
@@ -30,7 +30,7 @@ body {
 
 #gsearchbar {
 	outline: none;
-	width: 365px;
+	width: 355px;
 	font-size: 16px;
 	border: 1px solid rgba(0, 0, 0, 0.3);
 	padding: 12px;
