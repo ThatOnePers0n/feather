@@ -9,4 +9,4 @@ splash[5] = "Made with HTML";
 splash[6] = "Made with Javascript";
 var i = Math.floor(7*Math.random())
 
-text_location.innerHTML(splash[i]);
+text_location.innerHTML = splash[i];
