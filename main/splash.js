@@ -1,10 +1,10 @@
 var text_location = document.getElementById("subtitle");
 var splash = new Array ();splash[0] = "Hello!";
-splash[1] = "Welcome!";
-splash[2] = "this is a test";
-splash[3] = "These games are not from 3kh0.github.io";
-splash[4] = "Brought to you by arc!";
-splash[5] = "Made with HTML";
-splash[6] = "Made with Javascript";
+splash[1] = "Always Lightweight & Ad Free.";
+splash[2] = "Light as a feather, with almost no trackers.";
+splash[3] = "Almost carbon neutral!";
+splash[4] = "Fast loading times!";
+splash[5] = "Protected by Unbed! (www.unbed.gq)";
+splash[6] = "Please don't iFrame me!";
 var i = Math.floor(7*Math.random());
 text_location.innerHTML = splash[i];
