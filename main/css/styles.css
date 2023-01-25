@@ -8,6 +8,11 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/main/images/bg.jpg");
   background-repeat: no-repeat;
   color: #cccccc;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 .container {
 	padding: 20px;
