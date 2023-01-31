@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="styles.css" rel="stylesheet">
+<title>Blocked Page</title>
+<link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+<script src="https://feather.run/main/unbed/unbed.js"></script>
+<script>
+    function myFunction() {
+    var element = document.body;
+    element.classList.toggle("light");
+    }
+</script>
+</head>
+<body>
+<div class="hero-image">
+  <div class="hero-text">
+    <br>
+    <img src="images/logo.png" alt="Feather Logo">
+    <center>
+    <span id="subtitle" class="splash">...</span>
+    </center>
+    <br>   
+</div>
+</div>
+<br>
+<button onclick="myFunction()">Switch Theme (Dark & Light)</button>
+<br>
+<!-- Make game images local at some point, put in main/g/.thumbnails-->
+<a href="https://feather.run/main/g/2048">
+<div class="polaroid">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/2048_logo.png" alt="Northern Lights" style="width:100%">
+    <div class="container">
+    <p>2048</p>
+    </div>
+  </div>
+</a> 
+<a href="https://feather.run/main/g/2048">
+  <div class="polaroid">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/2048_logo.png" alt="Northern Lights" style="width:100%">
+    <div class="container">
+    <p>2048</p>
+    </div>
+  </div>
+</a>
+<br>
+<hr>
+<div id="wcb" class="carbonbadge"></div>
+<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+<script src="https://feather.run/main/splash.js"></script> 
+</body>
+</html>
