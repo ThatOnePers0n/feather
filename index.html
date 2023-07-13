@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Blocked Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style type="text/css">
+
+            .blocked-page select:focus,
+            .blocked-page a:focus,
+            .blocked-page button:focus,
+            .blocked-page textarea:focus,
+            .blocked-page input:focus {
+                outline: 2px solid #0073E6;
+                outline-offset: -2px;
+            }
+            body:not(.user-is-tabbing) a:focus,
+            body:not(.user-is-tabbing) button:focus,
+            body:not(.user-is-tabbing) input:focus,
+            body:not(.user-is-tabbing) select:focus,
+            body:not(.user-is-tabbing) textarea:focus {
+                outline: none !important;
+            }
+            .blocked-page input.form-control:focus {
+                border: 0;
+                box-shadow: none;
+                border-bottom: 1px solid #66afe9;
+            }
+            .blocked-logo {
+                width: 120px !important;
+            }
+
+            .top-logo {
+                width: 100px;
+                height: 70px;
+                position: absolute;
+            }
+            .top-logo img {
+                width: 100px;
+                height: 70px;
+                object-fit: contain;
+            }
+
+            .school-logo {
+                height: auto;
+            }
+
+            .school-logo img {
+                max-height: 100px;
+            }
+
+        </style>
+        <!-- REL-2408 - Google Tag Manager -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31418916-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-31418916-2');
+        </script>
+
+        <script type="text/javascript" language="javascript" src="https://www.securly.com/js/vendor/jquery-1.11.0.min.js"></script>
+        <link rel="stylesheet" href="https://www.securly.com/site/css/grid.css">
+        <link rel="stylesheet" href="https://www.securly.com/css/colorbox.css"/>
+        <link rel="stylesheet" href="https://www.securly.com/app/css/login-layouts.css">
+        <link rel="stylesheet" href="https://www.securly.com/site/css/fonts/metropolis/stylesheet.css">
+        <link rel="stylesheet" href="https://www.securly.com/app/css/blocked.css">
+            <!-- Favicons -->
+        <link rel="apple-touch-icon" href="https://www.securly.com/site/assets/img/favicons/favicon-180x180.png" sizes="180x180" />
+        <link rel="icon" href="https://www.securly.com/site/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png" />
+        <link rel="icon" href="https://www.securly.com/site/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png" />
+        <link rel="icon" href="https://www.securly.com/site/assets/img/favicons/favicon-16x16.ico" />
+    </head>
+    <body>
+    <!--BEGIN BLOCKED TEMPLATE-->
+    <div class="blocked-page businessbg">
+
+        
+        <!--GEO LOCATION BLOCKED-->
+        
+        <!-- ==========================================================================
+                Blocked kids full page - html starts
+        ========================================================================== -->
+        <!--IF CONTACT ADMIN TWL AND LOGIN ARE OFF-->
+        <div class="padding-wrapper">
+            <!--IF SHOW LOGIN OR TWL OR CONTACT ADMIN IS TRUE-->
+            <div class="newGrid_container shadow-container">
+                <div class="row">
+                                                    <div class="top-logo"> <a href="https://feather.run/main/index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjU8ANrjYO1lClaedq1vsdNlyQuqJh25jlpjpk8gOpww&s" alt="Securly Logo"> </a></div>
+                                                <h1 class="text-center heading">Looks like this page isn't allowed</h1>
+                        <div class="schlblockMessage mt-0 text-center">This page has been blocked.</div>                        
+                </div>
+
+                <div class="row">
+                    <div class="col-md-7 text-center">
+                        <div class="lhs-img-container ">
+                            <img src="https://www.securly.com/app/images/blocking-animation.gif" alt=""/>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <section class="rhs-container">
+                        <div id="blockDetails" class="block-details">
+                                <h2 class="details-heading">Blocking details</h2>
+                                <div class="regularBody"><span>URL: </span><span class="medium">feather.run</span></div>
+                                <div class="regularBody"><span>Reason: </span><span class="medium">Blocked by Category</span></div>
+                                                                                        <a href="#" role="button" id="show-more" class="regularBody medium" style="display: inline-block;">Show more</a>
+                                                        <div class="more-details">
+                                                                                                    <div class="details"><span>Category: </span><span>Games</span></div>
+                                                                <div class="details"><span>User email: contact@feather.run</span><span></span></div>
+                                <div class="details" style="padding-bottom: 24px;">
+                                    <span>Policy: </span><span>Take Home Policy</span>
+                                </div>
+                                <div class="details"><span>Filtering methods: </span><span>Chrome Extension</span></div>
+                            </div>
+                            <div class="clearfix"></div>
+
+                        </div>
+
+                    <!-- SHOW LESS link placed outside blockDetails div for accessibility re-ordering -->
+                                                <a href="#" id="show-less" aria-hidden="true" tabindex="-1" style="display:none;" class="regularBody medium">Show less</a>
+                    
+                                            <!--IF CONTACT ADMIN TWL AND LOGIN ARE OFF , NO ACTION AVAILABLE-->
+                                        <!-- ==========================================================================
+                            Blocked Kids - Right Side ends
+                    ========================================================================== -->
+                    <div id="aria-kb-link" class="details" aria-label="Refer to KB article for explanation of blocking details"><span>Refer to <a target="_blank" aria-label="KB article explaining blocking details" href="https://support.securly.com/hc/en-us/articles/214616977-How-do-I-find-out-why-a-particular-site-was-blocked-">KB article</a> for explanation of blocking details<span></div>
+                    </section>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end newGridcontainer -->
+        </div> <!-- end padding wrapping -->
+
+
+            </div>
+        
+           <script>
+        /* showTWL : Used for contact admin field validation purpose */
+        var showTWL =  0;
+
+        $(document).ready(function () {
+
+            formValidate();
+            var registeredDomains  = ["fuesd.org"];
+            var otherText = "Other";
+            if(registeredDomains){
+                for (var i = 0; i < registeredDomains.length; i++) {
+                    registeredDomains[i] = registeredDomains[i].toLowerCase();
+                }
+            }
+            var EMAIL_REGEXP = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+            $('#show-more').on('click', function (e) {
+                e.preventDefault();
+                $('.details').show();
+                $('.more-details').slideDown();
+                $('#show-less').show();
+                $(this).hide();
+                $(this).attr('aria-expanded', 'true');
+            });
+
+            $('#show-less').on('click', function (e) {
+                e.preventDefault();
+                $('.more-details').slideUp();
+                $('.details').hide();
+                $('#show-more').show();
+                $('#show-more').css('display', 'inline-block');
+                $(this).hide();
+                $(this).attr('aria-expanded', 'false');
+            });
+            $("#reasonDropdownMenu li").click(function(){
+                $("#questionSelection").text($(this).text());
+                $("#questionSelection").val($(this).text());
+                updateReasonTextBox();
+                formValidate();
+                // Calling updateReasonTextBox function again for mac/ios related device
+                // as weird issue coming, need to find some concrete solution for it
+                // for now will keep this way
+                if(/(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)){
+                    updateReasonTextBox();
+                }
+            });
+            /* REL-2199: Conact Admin Form Changes*/
+
+            $('.askForPermissionClk').click(function() {
+                if (($('.ask-btn').attr('aria-expanded')) == 'true') {
+                    $('.ask-btn').attr('aria-expanded', 'false');
+                } else {
+                    $('.ask-btn').attr('aria-expanded', 'true');
+                }
+                $("#permissionForm").slideToggle('fast', function() {
+                    $(".navigation-button").toggleClass("ss-navigateup ss-navigatedown");
+                });
+            });
+
+            // If 'other' option selected show textbox, else remove hide textbox'
+            function updateReasonTextBox() {
+                var questionSelectionValue = document.getElementById("questionSelection").value;
+                var otherReasonElement =  document.getElementById("otherReasonInfo");
+                if(questionSelectionValue == otherText){
+                    otherReasonElement.style.display= "block";
+                } else {
+                    otherReasonElement.value = "";
+                    otherReasonElement.style.display= "none";
+                }
+            }
+            
+            /** Contact Admin Form Validation
+             */
+            $('#teacherEmail').on('blur', function(){
+                var inputEmail = $('#teacherEmail').val();
+                var domain = inputEmail.substring(inputEmail.lastIndexOf("@") + 1);
+                if(EMAIL_REGEXP.test(inputEmail) && registeredDomains.indexOf(domain.toLowerCase()) == -1) {
+                    $("#domainError").show();
+                    $("#sendEmail").attr("disabled", true);
+                }
+            });
+
+            var otherReasonInfo = document.getElementById("otherReasonInfo");
+            otherReasonInfo && otherReasonInfo.addEventListener("input",function(){
+                formValidate();
+            });
+
+            var teacherEmail = document.getElementById("teacherEmail");
+            teacherEmail && teacherEmail.addEventListener("input",function(){
+                formValidate();
+            });
+
+            var lang = "en_US";
+            function startTimer(duration, display) {
+                var timer = duration, minutes, seconds;
+                var intervalId = setInterval(function () {
+                    minutes = parseInt(timer / 60, 10);
+                    seconds = parseInt(timer % 60, 10);
+
+                    minutes = minutes < 10 ? "0" + minutes : minutes;
+                    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                    if (lang == 'es_ES') {
+                        $(display).text(minutes + " minutos" + " " + seconds + " segundos");
+                    } else if (lang == 'fr_CA') {
+                        $(display).text(minutes + " minutes" + " " + seconds + " secondes");
+                    } else {
+                        $(display).text(minutes + " minutes" + " " + seconds + " seconds");
+                    }
+
+                    --timer;
+
+                    if (timer < 0) {
+                        clearInterval(intervalId);
+                        window.location.reload();
+                    }
+                }, 1000);
+            }
+            var timeRemaining = 0;
+            displayId = $('#banTime');
+            if (timeRemaining) {
+                startTimer(timeRemaining, displayId);
+            }
+
+
+            function formValidate(){
+                var disabled = false;
+
+                var questionSelection = $("#questionSelection");
+
+                if (questionSelection.length && questionSelection[0]) {
+
+                    // REASON SELECTION DROPDOWN VALIDATION
+                    var selectedReason = questionSelection[0].value;
+                    if (selectedReason != '') {
+                        if (selectedReason == otherText) {
+                            var otherReasonValue = otherReasonInfo.value;
+                            if (otherReasonValue.length <= 500) {
+                                disabled = false;
+                            } else {
+                                disabled = true;
+                            }
+                        } else {
+                            disabled = false;
+                        }
+                    }
+                }
+
+
+                if (showTWL) {
+                    // EMAIL VALIDATION
+                    $("#domainError").hide();
+                    if (teacherEmail) {
+                        var inputEmail = teacherEmail.value;
+                        if (EMAIL_REGEXP.test(inputEmail)) {
+                            disabled = false;
+                            var domain = inputEmail.substring(inputEmail.lastIndexOf("@") + 1);
+                            if(registeredDomains.indexOf(domain.toLowerCase()) == -1) {
+                                disabled = true;
+                            }
+                        } else {
+                            disabled = true;
+                        }
+                    } else {
+                        disabled = true;
+                    }
+                }
+                if (disabled) {
+                    $("#sendEmail").attr("disabled", true);
+                } else {
+                    $("#sendEmail").removeAttr("disabled");
+                }
+            }
+            
+
+            $('#sendEmail').click(function(ev){
+                // Disabled send button once clicked.
+                $("#sendEmail").attr("disabled", true);
+                var params={};
+                params['site']= $('#permissionSite').val();
+                params['teacherEmail']= $('#teacherEmail').val();
+                params['reason']= $('#questionSelection').val();
+                params['otherReason']= $('#otherReasonInfo').val();
+                params['categories'] = "Games";
+                params['keyword'] = "";
+                params['blockedReason'] = "Blocked by Category";
+                params['policy'] = "Take+Home+Policy";
+                params['requesterOU'] = "-";
+                params['requesterSafeSecGroupName'] = "-";
+                params['requester'] = "";
+                params['i2n'] = "";
+                params['ua'] = "Other";
+                params['filteringMethod'] = "Chrome Extension";
+                params['esPreference'] = "0";
+                params['url'] = "feather.run"
+
+                if (showTWL) {
+                    sendEmail(params, 'teacher');
+                } else {
+                    sendEmail(params, 'admin');
+                }
+                ev.preventDefault();
+            });
+        });
+
+
+
+        $('#sendPageScan').click(function(ev){
+            $("#sendPageScanRequstedSubmitted").show();
+            $("#sendPageScan").hide();
+            $("#pageScanInfo").show();
+            let params={};
+            params['domain']= $('#psSite').val();
+            params['requester'] = "";
+            $.get( "app/api/sendps",params)
+            .done(function( data ) {
+            })
+            .fail(function (err) {
+            });
+        });
+
+
+        function resetFormDetails(){
+            if (document.getElementById('contactAdminForm')) {
+                $("#contactAdminForm")[0].reset();
+            }
+        }
+
+        // keyboard-only focus
+        function handleFirstTab(e) {
+            if (e.keyCode === 9) { // "I am a keyboard user" key
+                $('body').addClass('user-is-tabbing');
+                $(window).off('keydown');
+                $(window).on('mousedown', handleMouseDownOnce);
+            }
+        }
+
+        function handleMouseDownOnce() {
+            $('body').removeClass('user-is-tabbing');
+            $(window).off('mousedown', handleMouseDownOnce);
+            $(window).on('keydown', handleFirstTab);
+        }
+
+        $(window).on('keydown', handleFirstTab);
+
+        function textAreaAdjust(element) {
+            element.style.height = "1px";
+            element.style.height = (25+element.scrollHeight)+"px";
+        }
+    </script>
+        
+        
+
+    </div>
+    <script src="https://www.securly.com/app/components/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
+<!--END BLOCKED TEMPLATE-->
